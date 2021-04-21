@@ -98,7 +98,7 @@ client.on('message', async message => {
 				url:"https://media.discordapp.net/attachments/646470157996261409/834414626791227413/hard-cheese-clipart-6.png?width=753&height=600"
 			},
 		}
-		message.channel.send({ embed:infoEmbed });
+		message.channel.send({ embed:infoEmbed })
 	}
 });
 
