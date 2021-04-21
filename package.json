@@ -4,7 +4,8 @@
   "description": "A discord bot that gives you cheese facts.",
   "main": "bot.js",
   "scripts": {
-    "test": "chelp"
+    "test": "chelp",
+    "start": "node bot.js"
   },
   "author": "Neesh",
   "license": "ISC",
