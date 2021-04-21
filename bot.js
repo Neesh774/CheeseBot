@@ -88,6 +88,18 @@ client.on('message', async message => {
 			// .addFooter(`Requested by ${message.author.tag}.`, message.author.displayAvatarURL);
 		message.channel.send({ embed:cheeseEmbed });
     }
+	else if(command === "help"){
+		const infoEmbed = {
+			color:"0xd1d93d",
+			title: "Cheese Bot",
+			description:"Use the `cfact` command to get a cheese fact!",
+			timestamp: new Date(),
+			thumbnail:{
+				url:"https://media.discordapp.net/attachments/646470157996261409/834414626791227413/hard-cheese-clipart-6.png?width=753&height=600"
+			},
+		}
+		message.channel.send({ embed:infoEmbed });
+	}
 });
 
 

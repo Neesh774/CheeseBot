@@ -1,0 +1,14 @@
+{
+  "name": "cheesebot",
+  "version": "1.0.0",
+  "description": "A discord bot that gives you cheese facts.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "chelp"
+  },
+  "author": "Neesh",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^15.14.0"
+  }
+}
